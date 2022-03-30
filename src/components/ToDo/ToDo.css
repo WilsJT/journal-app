@@ -1,0 +1,119 @@
+.todo-container {
+  border-radius: 4px;
+  outline: solid;
+  outline-width: 1px;
+  outline-color: black;
+  padding: 2px;
+  margin: 1px;
+  margin-left: 3px;
+  background-color: grey;
+  width:320px;
+}
+
+.notes-container {
+  max-height: 210px;
+  max-width: 320px;
+  overflow-y:auto;
+  word-wrap: break-word;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 2px;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header button {
+  margin-bottom: 0px;
+  margin-left: 8px;
+  position: relative;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: inherit;
+  left: 5px;
+  bottom: 2px;
+}
+
+.add-area {
+  display:flex;
+  flex-direction: row;
+}
+
+.add-area button {
+  font-size: 11px;
+  height: 14px;
+  width: 18px;
+  border-radius: 4px;
+}
+
+.add-area div {
+  width: 18px;
+  position: relative;
+  top: 2px;
+}
+
+.individual-notes-del {
+  border-top: solid;
+  border-width: thin;
+  display: flex;
+  flex-direction: row;
+}
+
+.task {
+  padding-top:1px;
+  margin-right: 4px;
+  margin-left: 4px;
+  width: 270px;
+}
+
+.del-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.del-list button {
+  font-size: 11px;
+  width: 18px;
+  height: 14px;
+  border-radius: 4px;
+  position: relative;
+  top: 2px;
+}
+
+.edit-button {
+  margin-bottom: 0px;
+  position: relative;
+  left: 5px;
+  bottom: 2px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 2px;
+  background-color: #dddddd;
+}
+
+button:hover {
+  background-color: #cccccc;
+}
+
+li {
+  list-style-type: disc;
+  margin-bottom: 2px;
+}
+
+textarea {
+  width: 270px;
+  height: 30px;
+  resize: none;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}

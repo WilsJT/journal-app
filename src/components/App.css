@@ -1,0 +1,28 @@
+.app-container {
+  background-color: #001a3c;
+  background-repeat: no-repeat;
+  padding:5px;
+  width: 920px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  background-color: #4b4b4c;
+  width: 322px;
+  border-radius:4px;
+  padding:5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.right {
+  width: 573px;
+  height: 248px;
+  background-color: #4b4b4c;
+  border-radius: 4px;
+  padding: 5px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,68 @@
+.info-container {
+  width: 322px;
+}
+
+.weather-image {
+  border: solid;
+  border-width: thin;
+  border-color: black;
+  height: 135px;
+  width: 135px;
+  border-radius: 4px;
+  background-color: grey;
+}
+
+.location-info {
+  border: solid;
+  border-width: thin;
+  border-color: black;
+  border-radius: 4px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1px;
+}
+
+.search-bar button {
+  top: 1px;
+  position: relative;
+  margin-right: 4px;
+  margin-left: 2px;
+  border-radius: 4px;
+}
+
+.search-bar input {
+  font-size: 18px;
+  border-radius: 4px;
+  border: solid;
+  border-width: thin;
+  width: 100%;
+}
+
+.info {
+  color: white;
+}
+
+.img-deg {
+  display: flex;
+  flex-direction: row;
+}
+
+.location {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.loading {
+  width: 320px;
+  height: 246px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
