@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Journal-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+Journal-app is a digital journal which tells current weather information and manages plans to easily identify tasks and events. All components and styling were written from scratch without the use of material-ui or other external libraries/frameworks, with exception to the [calendar](https://www.npmjs.com/package/react-calendar).
 
-## Available Scripts
+Deploy version: [journal-app](https://WilsJT.github.io/journal-app)
 
-In the project directory, you can run:
+## Tools
+<ul>
+  <li>JavaScript</li>
+  <li>React</li>
+  <li>CSS</li>
+  <li>OpenWeathermap API</li>
+  <li>react-calendar</li>
+ </ul>
 
-### `npm start`
+## Flow map
+![App-flow](https://user-images.githubusercontent.com/69861524/160769883-6e43658a-0341-4ab2-a41e-97c2731139f1.jpg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Functionality
+### Update Weather:<br/>
+Searches for location and updates weather information
+<ol>
+  <li>Type in location</li>
+  <li>Press "enter" or search button</li>
+</ol>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="https://user-images.githubusercontent.com/69861524/160788196-f4b3b472-de85-43af-86d3-1de6d5769f98.gif" width="800" height="450" />
 
-### `npm test`
+### Editing notes:<br/>
+Add or delete notes
+<ol>
+  <li>Click date on calendar to edit notes on</li>
+  <li>Press edit button</li>
+  <li>Add notes text area and press "enter" or '+' button to add or delete notes using 'X' buttons</li>
+  <li>Press done or select a new date</li>
+</ol>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://user-images.githubusercontent.com/69861524/160788241-39c6b762-3300-468a-9a78-c62feb234ef4.gif" width="800" height="450" />
 
-### `npm run build`
+### Deleting past notes:<br/>
+Clears local storage and removes any notes for every date before the present date
+<ol>
+  <li>Press "Delete Past Notes" button</li>
+</ol>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="https://user-images.githubusercontent.com/69861524/160788278-21b4fcbf-fbce-4fd1-a28b-4e5287ecc8b0.gif" width="800" height="450" />
