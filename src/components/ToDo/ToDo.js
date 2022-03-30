@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef} from "react"
+import React, {useState, useEffect} from "react"
 import "./ToDo.css"
 
 const ToDo = (props) => {
@@ -10,7 +10,6 @@ const ToDo = (props) => {
     }
   )
   const [edit, setEdit] = useState(false)
-  const [add, setAdd] = useState("")
   const [message, setMessage] = useState("Delete Past Notes")
 
   // Update when new date is selected
@@ -68,7 +67,7 @@ const ToDo = (props) => {
   const handleAdd = () => {
     let note = document.getElementById("add").value
 
-    if (note.trim() == "") {
+    if (note.trim() === "") {
       document.getElementById("add").value = ""
       return
     }
