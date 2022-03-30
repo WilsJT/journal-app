@@ -22,7 +22,7 @@ const ToDo = (props) => {
     } else {
       setNotes({text: []})
     }
-  }, [props])
+  }, [props, message])
 
   // Handle data storage
   useEffect(() => {
